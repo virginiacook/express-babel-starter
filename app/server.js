@@ -1,18 +1,18 @@
+import cors from 'cors';
 import express from 'express';
 import bodyParser from 'body-parser';
-import cors from 'cors';
 import mongoose from 'mongoose';
 import apiRouter from './router';
 
 
 // initialize
 const app = express();
-
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // enable/disable cross origin resource sharing if necessary
-app.use(cors());
+
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
