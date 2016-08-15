@@ -5,6 +5,7 @@ import { Strategy as JwtStrategy, ExtractJwt } from 'passport-jwt';
 
 // and import User and your config with the secret
 import User from '../models/user_model';
+
 import dotenv from 'dotenv';
 dotenv.config({ silent: true });
 
