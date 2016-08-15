@@ -1,9 +1,3 @@
-# starter express app template
+#HW 5 pt 2
 
-* node with babel
-* expressjs
-* airbnb eslint rules
-
-Procfile set up to run on [heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
-
-
+I created a blog with auth that completely worked when hosted locally, but it did not deploy to Heroku properly. 
